@@ -112,14 +112,14 @@ body {
   
   /* text animation */
   
-  /* @keyframes animated-text{
+   @keyframes animated-text{
     from{width: 0%;}
     to{width: 480px;}
   }
   
   /* cursor animations */
   
-  /* @keyframes animated-cursor{
+  @keyframes animated-cursor{
     from{border-right-color: rgba(0, 0, 0, 0.75);}
     to{border-right-color: transparent;}
   }
@@ -136,7 +136,7 @@ form {
     margin: 15px 0;
     padding: 0.8rem;
     width: 100%;
-}  */
+} 
 
 form input {
     padding: 10px;
@@ -152,7 +152,7 @@ form input {
 }
 
 /* Input themes */
-/* form input.standard-input {
+ form input.standard-input {
     background-color: #181a1a;
     color: rgb(247, 226, 223);
 }
@@ -205,7 +205,7 @@ button:hover {
 } */
 
 /* Button themes */
-/* button.standard-button {
+ button.standard-button {
     background-color: rgb(247, 226, 223);
     color: rgb(0, 0, 0);
 }
@@ -257,8 +257,8 @@ form button {
 
 .todo {
     margin: 1rem;
-    /* background: rgb(247, 226, 223); */
-    /* color: black; */
+    background: rgb(247, 226, 223);
+    color: black;
     font-size: 19px;
     display: flex;
     justify-content: space-between;
@@ -283,8 +283,8 @@ form button {
 
 .todo li{
     padding: 7px;
-    /* word-wrap: break-word; */
-    /* flex-wrap: wrap; */
+    word-wrap: break-word;
+    flex-wrap: wrap;
     font-size: 20px;
     flex: 1; /* To push the trash and the check button to the right */
     border-radius: 30px;
@@ -293,7 +293,7 @@ form button {
     overflow-wrap: anywhere;
 }
 
-/* .check-btn, .delete-btn {
+ .check-btn, .delete-btn {
     font-size: 19px;
     cursor: pointer;
     width: 2em;
@@ -321,10 +321,10 @@ form button {
     transition: 0.5s;
     transform: translateY(45rem) rotateZ(45deg);
     opacity: 0;
-} */
+} 
 
 /* Responsive design */
-/* @media only screen and (max-width: 1000px) {
+ @media only screen and (max-width: 1000px) {
     .flexrow-container {
         align-self: unset;
         margin-right: 0;
@@ -377,4 +377,4 @@ form button {
     form > button.light-button {
         box-shadow: 0 0 5px lightgray;
     }
-} */
+} 
